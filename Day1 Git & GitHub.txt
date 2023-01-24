@@ -1,0 +1,50 @@
+Q1. What is Git?
+
+ans:- Git is popular version control system(VCS), It was created Linus Torvalds in 2005
+and has been maintaned by Junio Hamano
+
+Git is used for:-
+1. Tracking code changes
+2. Tracking who made changes like histoy of the files
+3. Coding Collaborations
+
+Q2. What do you understand by the term 'Version Control System'?
+ans:- It is a system that records changes to a file or set of files over time,
+so that we can recall specific versions later, i.e, for every source code changes in a file in a 
+new version will be created.
+
+Q3. What is GitHub?
+ans:- GitHub is an Internet hosting service for software development and version control using Git.
+It provides the distributed version control of Git plus access control,
+bug tracking, software feature requests, task management, continuous integration, and wikis for every project.
+Headquartered in California, it has been a subsidiary of Microsoft since 2018.
+
+Q4. Mention some popular Git hosting services.
+There are some most popular git hosting services:-
+1. GitHub
+2. SourceForge
+3. Bitbucket
+4. GitLab
+
+Q5. Different types of version control systems
+There are 3 types of VCS:-
+1. Local Version Control System(LVCS)
+2. Centralised Control System(CVCS)
+3. Distributed Version Control System(DVCS)
+
+Q6. What beniefits come with using Git?
+One of the biggest advantages of Git is its branching capabilities.
+Unlike centralized version control systems, Git branches are cheap and easy to merge. 
+This facilitates the feature branch workflow popular with many Git users. 
+Feature branches provide an isolated environment for every change to your codebase.
+
+Q7. What is Git repository?
+A Git repository is the .git/ folder inside a project. 
+This repository tracks all changes made to files in your project, building a history over time. 
+Meaning, if you delete the .git/ folder, then you delete your project’s history.
+
+Q8. How can you initialize a repository in Git?
+To create a new repo, you'll use the git init command. 
+git init is a one-time command you use during the initial setup of a new repo. 
+Executing this command will create a new .git subdirectory in your current working directory. 
+This will also create a new main branch.
