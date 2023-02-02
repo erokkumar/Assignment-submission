@@ -1,0 +1,66 @@
+1) what are the conditional operators in java.
+
+sol.
+The operator is applied between two Boolean expressions. It is denoted by the two OR operator (||). It returns true if any of the expression is true, else returns false. Let's create a Java program and use the conditional operator.
+
+2) what are the types of operators based on the number of operands.
+
+sol.
+
+There are two types of mathematical operators: unary and binary. Unary operators perform an action with a single operand.
+
+3) what is the use of switch case in java programming.
+
+sol.
+
+Switch case statement evaluates a given expression and based on the evaluated value(matching a certain condition), it executes the statements associated with it. Basically, it is used to perform different actions based on different conditions(cases).
+
+4) what are the priority levels of arithmetic operation in java.
+
+sol.
+
+In Java, parentheses() and Array subscript[] have the highest precedence in Java. For example, Addition and Subtraction have higher precedence than the Left shift and Right shift operators.
+
+5) what are the conditional statements and use of conditional staements in java.
+
+sol.
+
+You can use these conditions to perform different actions for different decisions. Java has the following conditional statements: Use if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false.
+
+6) what is the syntax of if else statement.
+
+sol.
+
+Use if to specify a block of code to be executed, if a specified condition is true. Use else to specify a block of code to be executed, if the same condition is false. Use else if to specify a new condition to test, if the first condition is false. Use switch to select one of many blocks of code to be executed.
+
+7) what are the 3 types of iterative statements in java.
+
+sol.
+
+ Iteration Statements
+1 The while Statement. The while statement evaluates a control expression before each execution of the loop body. ...
+2 The do Statement. The do statement evaluates the control expression after each execution of the loop body. ...
+3 The for Statement.
+
+8) what the difference between for loop and do-while loop.
+
+sol.
+
+What is the major difference between for loop and while loop? The major difference between for loop and while loop is that in the case of for loop the number of iterations is known whereas in the case of the while loop number of iterations is unknown and the statement will run until the condition is proved.
+
+9) write a program to print numbers from 1 to 10.
+
+sol.
+
+public class forloop 
+{
+    public static void main(String[] args) {
+        for(int i = 1; i<10; i++){
+            System.out.println("i");
+        }
+    }
+    
+}
+
+
+
